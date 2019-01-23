@@ -1,6 +1,6 @@
 {
   "name": "youdao-translate-new",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "nodejs youdao translate",
   "main": "index.js",
   "repository": {

@@ -11,9 +11,9 @@ function configYoudaoTranslate(appID, appSecret) {
     return new Promise((resolve, reject) => {
       const salt = (new Date).getTime();
       const query = Buffer.from(content).toString();
-      const signStr = appKey + query + salt + key;
+      const signStr = appID + query + salt + appSecret;
       const sign = md5(signStr);
-      const requestURL = `http://openapi.youdao.com/api?q=${query}&appKey=${appKey}&salt=${salt}&from=${from}&to=${to}&sign=${sign}`;
+      const requestURL = `http://openapi.youdao.com/api?q=${query}&appKey=${appID}&salt=${salt}&from=${from}&to=${to}&sign=${sign}`;
       http.get(encodeURI(requestURL), (res) => {
         if (res.statusCode === 200) {
           let buffer = Buffer.from([])
