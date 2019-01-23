@@ -1,0 +1,17 @@
+{
+  "name": "youdao-translate-new",
+  "version": "1.0.1",
+  "description": "nodejs youdao translate",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MANSOUL/youdao-translate.git"
+  },
+  "keywords": ["youdao", "translate", "node.js"],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MANSOUL/youdao-translate/issues"
+  },
+  "homepage": "https://github.com/MANSOUL/youdao-translate#readme"
+}

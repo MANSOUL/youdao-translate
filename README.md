@@ -3,7 +3,7 @@
 ## How to use?
 
 ```shell
-$ npm i youdao-translate
+$ npm i youdao-translate-new
 ```
 
 then
